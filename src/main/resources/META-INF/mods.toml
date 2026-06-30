@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[61,)"
+license="CC0-1.0"
+
+[[mods]]
+modId="soulsort"
+version="1.3.1"
+displayName="SoulSort"
+authors="you"
+# Server-side gameplay; IGNORE_ALL_VERSION lets clients join servers without it
+# (and vice-versa) without a mod-mismatch screen. Restore just no-ops if absent.
+displayTest="IGNORE_ALL_VERSION"
+description='''Death-drop sorting: recovered items return to the exact inventory
+slots, armor, and off-hand they were in before death.'''
+
+[[dependencies.soulsort]]
+    modId="forge"
+    mandatory=true
+    versionRange="[61,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.soulsort]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.11,1.21.12)"
+    ordering="NONE"
+    side="BOTH"

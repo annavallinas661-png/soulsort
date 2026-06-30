@@ -4,7 +4,7 @@
 	"version": "${version}",
 	"name": "魂拾 SoulSort",
 	"description": "你死亡的那一刻被它悄悄记下，捡回散落的家当时，物品栏、背包、盔甲、副手都会原样归位。",
-	"authors": ["you"],
+	"authors": ["heellowdsf"],
 	"license": "CC0-1.0",
 	"icon": "assets/soulsort/icon.png",
 	"environment": "*",

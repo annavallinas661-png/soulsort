@@ -6,7 +6,7 @@ license="CC0-1.0"
 modId="soulsort"
 version="1.3.1"
 displayName="SoulSort"
-authors="you"
+authors="heellowdsf"
 # Server-side gameplay; IGNORE_ALL_VERSION lets clients join servers without it
 # (and vice-versa) without a mod-mismatch screen. Restore just no-ops if absent.
 displayTest="IGNORE_ALL_VERSION"

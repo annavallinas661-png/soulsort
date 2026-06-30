@@ -1,0 +1,6 @@
+--version
+26.2.0.7-beta
+--assetIndex
+asset-index
+--assetsDir
+C:\Users\36279\.gradle\caches\minecraft\assets

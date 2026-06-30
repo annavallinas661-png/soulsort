@@ -1,5 +1,6 @@
-# soulsort
-A Minecraft mod that restores your dropped items to their exact pre-death inventory slots, armor, and off-hand positions when you pick them back up — available for Fabric, Forge, and NeoForge on both 1.21.11 and 26.2.
+# SoulSort
+
+A Fabric mod for Minecraft 1.21.11 that remembers where your stuff was.
 
 ## Why this exists
 
@@ -120,7 +121,7 @@ own for a vanilla client to fall back on.
 
 ## Building
 
-Needs JDK 25 (Minecraft 26.2's own requirement, nothing to do with this mod).
+Needs JDK 21 (Minecraft 1.21.11's own requirement, nothing to do with this mod).
 `gradlew.bat clean build` / `./gradlew clean build` - the build script will
 fetch a matching JDK automatically via Gradle's toolchain support if your
 machine doesn't already have one.

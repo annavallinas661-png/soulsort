@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "soulsort",
+	"version": "${version}",
+	"name": "魂拾 SoulSort",
+	"description": "你死亡的那一刻被它悄悄记下，捡回散落的家当时，物品栏、背包、盔甲、副手都会原样归位。",
+	"authors": ["you"],
+	"license": "CC0-1.0",
+	"icon": "assets/soulsort/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.soulsort.SoulSort"
+		],
+		"client": [
+			"com.soulsort.SoulSortClient"
+		]
+	},
+	"mixins": [
+		"soulsort.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

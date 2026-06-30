@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.soulsort.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ItemEntityMixin",
+		"AbstractContainerMenuMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

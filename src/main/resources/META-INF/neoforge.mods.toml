@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="you"
+# Server-side gameplay; IGNORE_ALL_VERSION lets clients join servers without it
+# (and vice-versa) without a mod-mismatch screen. Restore just no-ops if absent.
+displayTest="IGNORE_ALL_VERSION"
+description='''Death-drop sorting: recovered items return to the exact inventory
+slots, armor, and off-hand they were in before death.'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
